@@ -87,8 +87,7 @@ int main() {
                 break;
 
         }
-        if (!dirty)
-            std::cout << current_claim.id << '\n';
+        if (!dirty) std::cout << current_claim.id << '\n';
     } while (!f.eof());
 
 //    for(auto const& claim : claims) {
